@@ -1,0 +1,222 @@
+.gridView .card {
+    box-shadow: 0 4px 8px 0 rgba(71, 2, 2, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.gridView .card .title {
+    color: grey;
+    font-size: 18px;
+    margin-top: unset;
+}
+
+.gridView .card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.gridView .card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.gridView .card button:hover {
+    opacity: 0.7;
+}
+
+.gridView .card a:hover {
+    opacity: 0.7;
+}
+
+
+.grid .wrapper {
+    height: 420px;
+    width: 654px;
+    margin: 50px auto;
+    border-radius: 7px 7px 7px 7px;
+    /* VIA CSS MATIC https://goo.gl/cIbnS */
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.grid .product-img {
+    float: left;
+    height: 420px;
+    width: 327px;
+}
+
+.grid .product-img img {
+    border-radius: 7px 0 0 7px;
+}
+
+.product-info {
+    float: left;
+    height: 420px;
+    width: 327px;
+    border-radius: 0 7px 10px 7px;
+    background-color: #ffffff;
+}
+
+.product-text {
+    height: 300px;
+    width: 327px;
+}
+
+.product-text h1 {
+    margin: 0 0 0 38px;
+    padding-top: 52px;
+    font-size: 34px;
+    color: #474747;
+}
+
+.product-text h1,
+.grid .product-price-btn p {
+    font-family: 'Bentham', serif;
+}
+
+
+
+.product-text p {
+    height: 125px;
+    margin: 0 0 0 38px;
+    font-family: 'Playfair Display', serif;
+    color: #8d8d8d;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+}
+
+.grid .product-price-btn {
+    height: 103px;
+    width: 327px;
+    margin-top: 17px;
+    position: relative;
+}
+
+.grid .product-price-btn p {
+    display: inline-block;
+    position: absolute;
+    top: -13px;
+    height: 50px;
+    font-family: 'Trocchi', serif;
+    margin: 0 0 0 38px;
+    font-size: 28px;
+    font-weight: lighter;
+    color: #474747;
+}
+
+.grid span {
+    display: inline-block;
+    height: 50px;
+    font-family: 'Suranna', serif;
+    font-size: 34px;
+}
+
+.grid .product-price-btn button {
+    float: right;
+    display: inline-block;
+    height: 50px;
+    width: 176px;
+    margin: 0 40px 0 16px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color: #9cebd5;
+    cursor: pointer;
+    outline: none;
+}
+
+.grid .product-price-btn button:hover {
+    background-color: #79b0a1;
+}
+
+/* starting */
+.gridHeadingName {
+    color: #212121;
+    font-size: 1.8vw;
+    margin: 15px 0px 0px;
+}
+
+.gridSubHeadingName {
+    /* margin: 0 0 47px 38px; */
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    letter-spacing: 0.2em;
+}
+
+.gridParagraphtag {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.4vw;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px; */
+    color: #388e3c;
+}
+
+.gridProductPrice {
+    color:#212121;
+    font-weight:bold;
+    text-align: center;
+    max-width:100%; 
+    font-size:1.6vw;
+}
+.blink_me {
+    animation: blinker 2s linear infinite;
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 20px;
+    font-weight: bold;
+    color: red;
+  }
+.status {
+    text-transform: uppercase;
+    padding-right: 20px;
+    font-weight: bold;
+    color: olive;
+  }
+
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  .pnk-cursor-pointer{
+    cursor: pointer;
+  }
+
+  .thumbnailimg {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  .thumbnailimg:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
